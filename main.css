@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 970px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+#head {
+    background: #ccc;
+    padding: 15px;
+}
+
+#content {
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.leftBlock {
+    background: #b259cc;
+    padding: 15px;
+    width: 70%;
+    float: left;
+}
+
+.rightBlock {
+    background: #cc6434;
+    padding: 15px;
+    width: 30%;
+    float: right;
+}
+
+#footer {
+    margin-top: 15px;
+    background: #ccc;
+    padding: 15px;
+}
+
+@media (max-width: 380px) {
+    #container {
+        width: 100%;
+    }
+}
