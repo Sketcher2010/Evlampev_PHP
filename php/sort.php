@@ -18,12 +18,11 @@ for ($i = 0; $i < count($allNumber); $i++) {
             $allNumber[$j + 1] = $a;
         }
     }
-    foreach ($allNumber as $number) {
-        echo $number . " ";
-    }
-    echo "\n";
 }
 
+foreach ($allNumber as $number) {
+    echo $number . " ";
+}
 
 /* 6 8 8 9 7
  * 6 8 8 9 7

@@ -1,0 +1,16 @@
+1) Создать ветку (git checkout -b develop)
+2) Добавить в индекс и закоммитить все текущие изменения
+    (
+        git add .
+        git commit -m "15.05.2019 занятие"
+    )
+3) Залить ветку develop (git push -u origin develop)
+4) Проверить на github
+5) Объеденить ветки master и develop
+    (
+        git checkout master
+        git merge --no-ff develop
+    )
+    ** Появится окно редактирования содержимого коммита
+        Необходимо написать :wq
+6) Залить ветку master (git push)
